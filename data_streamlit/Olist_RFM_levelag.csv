@@ -1,0 +1,7 @@
+Detailed Customer Segment,Recency,Frequency,Monetary,Monetary,Marketing Action
+,mean,mean,mean,count,unique
+Hibernating - Almost Lost,481.0,16.8,2328.6,328,['Aggressive price incentives']
+Lost Customers,306.9,1.4,229.1,52000,"[""Don't spend too much trying to re-acquire""]"
+Loyal Customers,116.7,16.1,10047.9,378,['Loyality programs;Cross Sell']
+Needs Attention,195.4,1.6,304.3,61967,['Price incentives and Limited time offer']
+Potential Loyalists,102.7,8.2,3054.3,2913,['Cross Sell Recommendations and Discount coupons']
