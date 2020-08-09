@@ -95,8 +95,8 @@ def main():
 
         ## Appilcation 
 
-        Create a Streamlit application which shows exactly how we did the analysis and all the visualizations 
-        which could be used by the Olist team to better understand their customer's. The application will be hosted on Heroku.     
+        Created a Streamlit application which shows exactly how we did the analysis and all the visualizations 
+        which could be used by the Olist team to better understand their customer's. The application is hosted on Heroku.     
         
     
         ''')
