@@ -61,7 +61,7 @@ def main():
 
             Low Value -> less activity, not frequent buyers/visitors or aliens, low revenue
             Mid Value -> moderately active, moderate buyers/visitors or roamers, moderate income(not too high or low)
-            High Value -> high activity, frequent buyers/vistiors or fans, high revenue
+            High Value -> high activity, frequent buyers/visitors or fans, high revenue
         
         ## 2) Predicting repeat customers
         The assumption made that predicting repeat customers based on observations made from their first purchases would reveal 
@@ -93,7 +93,7 @@ def main():
             - Logistic Regression - 92%
             - Random Forest Classifier - 97%
 
-        ## Appilcation 
+        ## Application 
 
         Created a Streamlit application which shows exactly how we did the analysis and all the visualizations 
         which could be used by the Olist team to better understand their customer's. The application is hosted on Heroku.     
@@ -131,7 +131,7 @@ def main():
         st.plotly_chart(fig_mac, use_container_width=True)
 
         st.write("From the above plot we can see that, there is a varying manner on how many customers are actively purchasing on Olist."
-            "We plot this data to see how our customer segementation & repeat customer's can help categorise customers and perform targetted marketing actions."
+            "We plot this data to see how our customer segmentation & repeat customer's can help categorise customers and perform targetted marketing actions."
             "As we can see customers are not active during September & October months for the 2 years of data we have. If we divide them,  \n"
             "- Olist have more active customers during the first half of the year with August being the most active month and  \n"
             "- Olist have a decline in active customers post August during the second half of the year  \n")
@@ -151,7 +151,7 @@ def main():
         st.write("From the above graph we can see, how the revenue for each category is doing for each year.  \n"
                    "- Bed bath table surprisingly has the most revenue  \n"
                     "- Followed by Health and Beauty category  \n"
-                    "- And thrid being Computer Accessories  \n"
+                    "- And third being Computer Accessories  \n"
 
                     "This graph helps us understand what kind of product and from which categories do customers buy most often. "
                     "This could be a factor while predicting the next purchase for the customer")
@@ -179,8 +179,8 @@ def main():
         fig_total_sales_year.update_xaxes(nticks=3)
         st.plotly_chart(fig_total_sales_year, use_container_width=True)
 
-        st.write('''Revenue seems to be increasing from the year 2016 to 2018. Upward trend. Great marketing stretegies like customer 
-            segmentation and predictive repeting customers will help Olist ''')
+        st.write('''Revenue seems to be increasing from the year 2016 to 2018. Upward trend. Great marketing strategies like customer 
+            segmentation and predictive repeating customers will help Olist ''')
 
 
 
@@ -230,7 +230,7 @@ def main():
                     "### Cluster 0  \n"
                     "It has the lowest Montary Value mean and high Recency mean and the lowest frequency mean which means no spending customers and most inactive customers — We will need to do something before we lose them!  \n"
                     "### Cluster 1  \n"
-                    "It performs poorly across R, F, and M. we will need to design campaigns to activate them again  \n"
+                    "It performs poorly across R, F, and M. We will need to design campaigns to activate them again  \n"
                     "### Cluster 2  \n"
                     "They shopped with us recently but have not spend as much or as frequently as we would like them to — perhaps some personalization of products targeted at them can help to maximize their lifetime-value and come back to purchase?  \n"
                     "### Cluster 3  \n"
@@ -278,10 +278,10 @@ def main():
 
         df_user.loc[df_user['customer_unique_id'] == '5c58de6fb80e93396e2f35642666b693']
 
-        st.write(" We can see that the probability of predecting a repeat customer is on point  \n"
+        st.write(" We can see that the probability of predicting a repeat customer is on point  \n"
 
                     "For example, below we took a customer_unique_id and we can see how we categorised the customer as a repeat "
-                    "customer and the customer actually falls into the Mid-Value segment which needs attention"
+                    "customer and the customer actually falls into the Mid-Value segment which needs attention  \n"
 
                     "From this we can understand that, we need to offer Price incentives & limited offers to "
                     "repeat customers so that they can come back to Olist and purchase")
